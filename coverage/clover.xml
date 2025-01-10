@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1736527191351" clover="3.2.0">
+  <project timestamp="1736527191351" name="All files">
+    <metrics statements="188" coveredstatements="142" conditionals="81" coveredconditionals="63" methods="68" coveredmethods="54" elements="337" coveredelements="259" complexity="0" loc="188" ncloc="188" packages="16" files="24" classes="24"/>
+    <package name="components.AppLayout">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="AppLayout.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/components/AppLayout/AppLayout.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Header">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/components/Header/Header.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Sidebar">
+      <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <file name="Sidebar.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/components/Sidebar/Sidebar.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="13" type="stmt"/>
+        <line num="9" count="13" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="13" count="13" type="stmt"/>
+        <line num="14" count="1" type="stmt"/>
+        <line num="17" count="13" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Sidebar.components.FavoriteProjectList">
+      <metrics statements="12" coveredstatements="12" conditionals="8" coveredconditionals="7" methods="5" coveredmethods="5"/>
+      <file name="FavoriteProjectList.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/components/Sidebar/components/FavoriteProjectList/FavoriteProjectList.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="5" methods="3" coveredmethods="3"/>
+        <line num="11" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="28" count="4" type="stmt"/>
+        <line num="30" count="4" type="stmt"/>
+        <line num="46" count="2" type="stmt"/>
+        <line num="49" count="2" type="cond" truecount="1" falsecount="1"/>
+      </file>
+      <file name="useFavoriteProjectList.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/components/Sidebar/components/FavoriteProjectList/useFavoriteProjectList.ts">
+        <metrics statements="6" coveredstatements="6" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="4" count="2" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ui.FormDatePickerField">
+      <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="8" methods="4" coveredmethods="4"/>
+      <file name="FormDatePickerField.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/components/ui/FormDatePickerField/FormDatePickerField.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="9" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="14" count="7" type="cond" truecount="4" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="25" count="10" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="10" type="stmt"/>
+        <line num="31" count="16" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Projects.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/Projects.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.CreateProject">
+      <metrics statements="13" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="3"/>
+      <file name="CreateProject.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/CreateProject/CreateProject.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="7" type="stmt"/>
+        <line num="10" count="7" type="stmt"/>
+      </file>
+      <file name="useCreateProject.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/CreateProject/useCreateProject.ts">
+        <metrics statements="10" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="2"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="30" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.EditProject">
+      <metrics statements="21" coveredstatements="21" conditionals="11" coveredconditionals="11" methods="7" coveredmethods="7"/>
+      <file name="EditProject.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/EditProject/EditProject.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="3" type="stmt"/>
+        <line num="12" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="20" count="2" type="stmt"/>
+      </file>
+      <file name="useEditProject.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/EditProject/useEditProject.ts">
+        <metrics statements="16" coveredstatements="16" conditionals="7" coveredconditionals="7" methods="6" coveredmethods="6"/>
+        <line num="9" count="2" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
+        <line num="12" count="5" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="27" count="5" type="stmt"/>
+        <line num="28" count="5" type="cond" truecount="5" falsecount="0"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="33" count="5" type="cond" truecount="2" falsecount="0"/>
+        <line num="35" count="5" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="40" count="1" type="stmt"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="48" count="5" type="stmt"/>
+        <line num="49" count="1" type="stmt"/>
+        <line num="52" count="5" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectDetail">
+      <metrics statements="19" coveredstatements="19" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
+      <file name="ProjectDetail.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectDetail/ProjectDetail.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="26" count="3" type="cond" truecount="4" falsecount="0"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="43" count="2" type="stmt"/>
+        <line num="59" count="12" type="stmt"/>
+      </file>
+      <file name="useProjectDetail.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectDetail/useProjectDetail.ts">
+        <metrics statements="12" coveredstatements="12" conditionals="5" coveredconditionals="5" methods="4" coveredmethods="4"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="6" type="stmt"/>
+        <line num="14" count="6" type="stmt"/>
+        <line num="20" count="6" type="stmt"/>
+        <line num="27" count="6" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+        <line num="31" count="6" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="35" count="6" type="stmt"/>
+        <line num="36" count="6" type="cond" truecount="5" falsecount="0"/>
+        <line num="37" count="1" type="stmt"/>
+        <line num="41" count="6" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectList">
+      <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="ProjectList.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/ProjectList.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+      </file>
+      <file name="useProjectList.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/useProjectList.ts">
+        <metrics statements="8" coveredstatements="8" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="10" count="4" type="stmt"/>
+        <line num="11" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="15" count="4" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectList.components.EditProject">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="EditProject.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/EditProject/EditProject.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="17" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectList.components.FavoriteProject">
+      <metrics statements="47" coveredstatements="5" conditionals="16" coveredconditionals="2" methods="12" coveredmethods="1"/>
+      <file name="FavoriteProject.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/FavoriteProject/FavoriteProject.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="13" count="2" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+      </file>
+      <file name="useFavoriteProject.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/FavoriteProject/useFavoriteProject.ts">
+        <metrics statements="43" coveredstatements="1" conditionals="14" coveredconditionals="0" methods="11" coveredmethods="0"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="45" count="0" type="stmt"/>
+        <line num="51" count="0" type="stmt"/>
+        <line num="54" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="55" count="0" type="stmt"/>
+        <line num="63" count="0" type="stmt"/>
+        <line num="66" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="69" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="74" count="0" type="stmt"/>
+        <line num="79" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="81" count="0" type="stmt"/>
+        <line num="84" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="85" count="0" type="stmt"/>
+        <line num="87" count="0" type="stmt"/>
+        <line num="92" count="0" type="stmt"/>
+        <line num="95" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="97" count="0" type="stmt"/>
+        <line num="98" count="0" type="stmt"/>
+        <line num="100" count="0" type="stmt"/>
+        <line num="106" count="0" type="stmt"/>
+        <line num="114" count="0" type="stmt"/>
+        <line num="121" count="0" type="stmt"/>
+        <line num="122" count="0" type="stmt"/>
+        <line num="124" count="0" type="stmt"/>
+        <line num="125" count="0" type="stmt"/>
+        <line num="126" count="0" type="stmt"/>
+        <line num="131" count="0" type="stmt"/>
+        <line num="136" count="0" type="stmt"/>
+        <line num="141" count="0" type="stmt"/>
+        <line num="142" count="0" type="stmt"/>
+        <line num="145" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectList.components.ProjectCardListing">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <file name="ProjectCardListing.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/ProjectCardListing/ProjectCardListing.tsx">
+        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="15" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
+        <line num="23" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectList.components.ProjectCardListing.components">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="MobileCard.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/ProjectCardListing/components/MobileCard.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="19" count="4" type="stmt"/>
+        <line num="24" count="20" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.ProjectList.components.ProjectTableListing">
+      <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="8" coveredmethods="8"/>
+      <file name="ProjectTableListing.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/ProjectTableListing/ProjectTableListing.tsx">
+        <metrics statements="8" coveredstatements="8" conditionals="6" coveredconditionals="6" methods="5" coveredmethods="5"/>
+        <line num="21" count="2" type="stmt"/>
+        <line num="46" count="8" type="stmt"/>
+        <line num="56" count="2" type="stmt"/>
+        <line num="66" count="7" type="stmt"/>
+        <line num="68" count="7" type="stmt"/>
+        <line num="78" count="42" type="stmt"/>
+        <line num="107" count="8" type="stmt"/>
+        <line num="112" count="48" type="stmt"/>
+      </file>
+      <file name="useProjectTableListing.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/ProjectList/components/ProjectTableListing/useProjectTableListing.ts">
+        <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="5" count="11" type="stmt"/>
+        <line num="6" count="11" type="stmt"/>
+        <line num="9" count="11" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="11" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="22" count="11" type="cond" truecount="2" falsecount="0"/>
+        <line num="25" count="11" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Projects.components.ProjectForm">
+      <metrics statements="13" coveredstatements="12" conditionals="10" coveredconditionals="8" methods="5" coveredmethods="4"/>
+      <file name="ProjectForm.tsx" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/components/ProjectForm/ProjectForm.tsx">
+        <metrics statements="4" coveredstatements="3" conditionals="8" coveredconditionals="6" methods="2" coveredmethods="1"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="24" count="11" type="stmt"/>
+        <line num="28" count="11" type="stmt"/>
+        <line num="104" count="0" type="cond" truecount="0" falsecount="2"/>
+      </file>
+      <file name="useProjectForm.ts" path="/Users/airm2/Downloads/project-management-demo-main/src/pages/Projects/components/ProjectForm/useProjectForm.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="3" coveredmethods="3"/>
+        <line num="19" count="2" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="38" count="4" type="stmt"/>
+        <line num="40" count="4" type="stmt"/>
+        <line num="42" count="4" type="cond" truecount="2" falsecount="0"/>
+        <line num="43" count="1" type="stmt"/>
+        <line num="49" count="4" type="stmt"/>
+        <line num="50" count="1" type="stmt"/>
+        <line num="53" count="4" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
