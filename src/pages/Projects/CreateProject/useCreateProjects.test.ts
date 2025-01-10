@@ -51,44 +51,6 @@ describe('useCreateProject', () => {
     expect(mockMutate).toHaveBeenCalledWith(formData);
   });
 
-  it.skip('should navigate to /projects and show success toast on successful project creation', async () => {
-    (useCreateProjectApi as jest.Mock).mockReturnValue({
-      mutate: jest.fn().mockImplementation((data, options) => {
-        options.onSuccess();
-      }),
-      isPending: false,
-    });
-
-    await act(async () => {
-      renderHook(() => useCreateProject());
-    });
-
-    expect(mockNavigate).toHaveBeenCalledWith('/projects');
-    expect(mockShowToast).toHaveBeenCalledWith(
-      'Project created successfully',
-      'success'
-    );
-  });
-
-  it.skip('should show error toast on project creation failure', async () => {
-    const mockError = new Error('API Error');
-    const mockFormattedError = 'Formatted Error Message';
-    (formatErrorMessage as jest.Mock).mockReturnValue(mockFormattedError);
-
-    (useCreateProjectApi as jest.Mock).mockReturnValue({
-      mutate: jest.fn().mockImplementation((data, options) => {
-        options.onError(mockError);
-      }),
-      isPending: false,
-    });
-
-    await act(async () => {
-      renderHook(() => useCreateProject());
-    });
-
-    expect(mockShowToast).toHaveBeenCalledWith(mockFormattedError, 'error');
-  });
-
   it('should return isCreatingProject status', () => {
     (useCreateProjectApi as jest.Mock).mockReturnValue({
       mutate: mockMutate,
